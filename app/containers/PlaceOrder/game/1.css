@@ -1,0 +1,8 @@
+html, body, div, canvas {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 760px;
+    height: 1100px;
+}

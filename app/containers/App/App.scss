@@ -1,0 +1,23 @@
+.app {
+  height: 1360px;
+  width: 760px;
+  margin: 0 auto;
+  background: url('./images//bg.png') no-repeat;
+}
+.header {
+  height: 80px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.backButtonContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  span {
+    font-size: 24pt;
+    font-weight: 800;
+    padding: 0px 0px 5px 15px;
+  }
+}

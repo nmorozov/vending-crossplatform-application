@@ -1,0 +1,12 @@
+export const HOME = '/';
+export const LANGUAGE_SELECT = '/language_select';
+export const PAGE_TEST_MODULES_SELECT = '/page_test_modles_select';
+export const COIN_FRONT_SIDE_SELECT = '/coin_front_side_select';
+export const COIN_BACK_SIDE_SELECT = '/coin_back_side_select';
+export const SIGNATURE = '/signature';
+export const TEXT = '/text';
+export const FINGERPRINT = '/fingerprint';
+export const MAGNETIC_CASE_SELECT = '/magnetic_case_select';
+export const CHECKOUT = '/checkout';
+export const PLACE_ORDER = '/place_order';
+export const UNKNOWN_ERROR = '/unknown_error';

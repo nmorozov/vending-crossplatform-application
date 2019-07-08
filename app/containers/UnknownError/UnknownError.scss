@@ -1,0 +1,56 @@
+.wrapper {
+    padding: 0px 20px 40px 20px;
+}
+.coinsList {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.title {
+    display: flex;
+    align-items: flex-start;
+    align-self: flex-start;
+    justify-content: flex-start;
+    font-weight: 800;
+    margin-bottom: 170px;
+    filter: blur(5px);
+    .number {
+        color: #c3a94d;
+        font-size: 71pt;
+        margin-right: 15px;
+        line-height: 0.9;
+    }
+    .description {
+        font-size: 26pt;
+    }
+}
+
+.popupWrapper {
+    margin: 145px auto 50px auto;
+    width: 100%;
+    height: 460px;
+    background: #fff;
+    padding: 90px 45px 40px 45px;
+    text-align: center;
+    -webkit-box-shadow: 0 24px 47px 0 rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0 24px 47px 0 rgba(0, 0, 0, 0.4);
+    box-shadow: 0 24px 47px 0 rgba(0, 0, 0, 0.4);
+    box-sizing: border-box;
+    border-radius: 10px;
+
+    .unknownErrorTitle {
+        font-size: 32px;
+        font-weight: 800;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    
+    .unknownErrorText {
+        font-size: 16px;
+        font-weight: 500;
+        color: #121417;
+        line-height: 1.5;
+        margin-bottom: 40px;
+    }
+}

@@ -1,0 +1,19 @@
+.coinFrontSideTappable {
+    width: 218px;
+    height: 218px;
+    margin-right: 20px;
+    
+    .coinFrontSide {
+        width: 189px;
+        height: 189px;
+        background: url('../../images/coin_bg_plain.png') no-repeat center center;
+        margin: auto;
+        &:nth-child(3n) {
+            margin-right: 0px;
+        }
+        img {
+            max-width: 189px;
+            margin: auto;
+        }
+    }
+}

@@ -1,0 +1,138 @@
+{
+	"id": 6,
+	"serverHost": "vending.rugt.pro",
+	"serverHost1": "lk.vendingcic.ru",
+	"serverPort": "8888",
+
+	"idleTime": 60,
+	"enabledDrawTime": 200,
+	"coinPrice": 1,
+	"envelopPrice": 0,
+	"debugPayment": 0,
+	"disablePayment": 1,
+	"disablePrinter": 1,
+	"enabledTestModule":0,
+	"printTimeout": 50,
+	"frontsideImageWidth": 1054,
+	"frontsideImageHeight": 1054,
+
+	"oneSide": false,
+
+	"awersFile": "/var/tmp/A.bmp",
+	"rewersFile": "/var/tmp/R.bmp",
+	
+	"sizeCoinBackground": 96,
+	
+	"testModuleConfig": {
+		"image":"/var/tmp/test.tif",
+		"client":"/var/tmp/R.bmp",
+		"mask":"/var/tmp/A.bmp",
+		"envelop": 1
+	},
+	"fingerprint": "r303t",
+	"fingerprint1": "afm31",
+	"fingerprint2": "r551",
+	"fingerprintConfig": {
+		"baudrate": 115200,
+		"rotate": 0,
+		"width": 240,
+		"height": 288,
+		"width_r551": 214,
+		"height_r551": 214
+	},
+
+	"terminal": "d200",
+
+	"vendotek": {
+		"ip": "192.168.40.30",
+		"port": 62801
+	},
+
+	"d200": {
+		"logPath":"/var/temp/d200terminal",
+		"logLevel": 1
+	},
+
+	"cleanTimeout": 7200000,
+	"enableCleanPrinter": 0,
+
+	"coinStyleClient": {
+		"fontFamily": "Montserrat",
+		"fontSize": "80px",
+		"fontWeight": 700,
+		"kerning": -5,
+		"color": "black"
+	},
+
+	"coinStyleImage": {
+		"fontFamily": "Montserrat",
+		"fontSize": "80px",
+		"fontWeight": 800,
+		"kerning": -5,
+		"color": "black"
+	},
+
+	"coinTextImageUp": "{city} • {country}",
+	"coinTextImageDown": "{day}.{month}.{year}",
+	"coinTextClientUp": "CHECK•IN•COIN",
+	"coinTextClientDown": "{name}",
+
+	"boardSettings": {
+		"printerProgramm": "print_main",
+		"printerPath": "/dev/usb/lp0",
+		"printResolution": "360DPI",
+		"imageScalingAwers": 100,
+		"imageScalingRewers": 100,
+		"saturation": 1,
+		"cmykDotSize": 3,
+		"paperTopAwers": 3300,
+		"paperTopRewers": 3300,
+		"paperLeftAwers": 6900,
+		"paperLeftRewers": 6870,
+		"colorLevel": "R100G100B100",
+		"white": 1,
+		"awers": "image",
+		"rewers": "client"
+	},
+
+	"kitOnline": {
+		"urlSendCheck": "https://api.kit-invest.ru/WebService.svc/SendCheck",
+		"urlStatusCheck": "https://api.kit-invest.ru/WebService.svc/StateCheck",
+		"companyId": 1184,
+		"userLogin": "checkincoinapi",
+		"userPassword": "Xt13OxmQr",
+		"productName": "Сувенир",
+		"address":"123112, г. Москва, Пресненская наб., д. 12, 27 этаж, офис 3",
+		"place":"офис",
+		"automatNumber":"12",
+		"email":""
+	},
+
+	"schedule": {
+		"cleanHead": ["0 5", "0 11", "0 20", "0 22"],
+		"reconciliation": ["0 1"]
+	},
+
+	"gameCatShowTime": {
+		"tim0": 2000,
+		"tim1": 1500,
+		"tim2": 1000,
+		"tim3": 700,
+		"tim4": 300,
+		"count0": 30,
+		"count1": 50,
+		"count2": 80,
+		"count3": 110
+	},
+
+	"imageСolorСorrection":	{
+		"saturate": 100,
+		"brightness": 90,
+		"grayscale": 20,
+		"red":1,
+		"gren":1,
+		"blue":1
+	},
+
+	"errorСorrection": 0
+}

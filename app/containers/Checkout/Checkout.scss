@@ -1,0 +1,98 @@
+.wrapper {
+    padding: 0px 20px 40px 20px;
+}
+.title {
+    display: flex;
+    align-items: flex-start;
+    align-self: flex-start;
+    justify-content: flex-start;
+    font-weight: 800;
+    .description {
+        font-size: 62px;
+    }
+}
+
+.orderItems {
+    width: 100%;
+    background: #fff;
+    height: 470px;
+    border: 3px solid #dedede;
+    border-radius: 5px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    box-sizing: border-box;
+    .orderItem {
+        height: 215px;
+        width: 215px;
+        text-align: center;
+        .coinBackground {
+            background: url('../../images/coin_bg_plain.png') no-repeat;
+            background-position-x: center;
+            background-size: 81%;
+        }
+    }
+
+    & .orderItem:nth-child(1n) {
+        margin-right: 60px;
+        margin-left: 60px;
+    }
+    .orderItemTittle {
+        font-size: 16px;
+        color: #919090;
+        font-weight: 500;
+        margin-top: 10px;
+    }
+    .image {
+        max-height: 175px;
+    }
+    .backSideImage {
+        max-width: 180px;
+        border-radius: 200px;
+    }
+}
+.instructionsContainer {
+    margin: 5px auto auto auto;
+    width: 100%;
+    text-align: center;
+    .instruction {
+        font-size: 16px;
+        color: #919090;
+        font-weight: 500;
+    }
+    .orderCost {
+        font-size: 40px;
+        font-weight: 800;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .button {
+        width: 340px;
+        height: 55px;
+        border-radius: 5px;
+        text-transform: uppercase;
+        font-weight: 800;
+        font-size: 14px;
+        line-height: 4;
+        cursor: pointer;
+    }
+    .confirm {
+        margin: 20px auto;
+        background: #c3a94d;
+    }
+    .buttonDisable {
+        opacity: 0.5
+    }
+}
+
+.hint {
+    margin: 0 auto;
+    text-align: center;
+    width: 700px;
+    height: 200px;
+    img {
+      max-height: 100%;
+    }
+  }

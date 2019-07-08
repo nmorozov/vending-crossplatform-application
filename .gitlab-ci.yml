@@ -1,0 +1,28 @@
+image:
+  name: ubuntu:16.04
+
+stages:
+  - build
+
+build:
+  stage: build
+  script:
+    - apt-get update
+    - apt-get install -y software-properties-common
+    - add-apt-repository ppa:fingerprint/fprint
+    - apt-get update
+    - apt-get -y install curl build-essential
+    - curl -sL https://deb.nodesource.com/setup_10.x | bash -
+    - apt-get -y install nodejs libssl1.0.0 libssl-dev libcrypto++-dev
+    - apt-get -y install libfprint-dev
+    - apt-get -y install pkg-config
+    - npm i electron
+    - HOME=~/.electron-gyp npm install fingerprint-afm31 pax-d200
+    - npm i
+    - cd app
+    - npm i
+    - cd ..
+    - npm run package
+  artifacts:
+    paths:
+      - release/vending_*.deb

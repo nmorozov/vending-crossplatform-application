@@ -1,0 +1,123 @@
+.mainContainer {
+  // background: #fff url('./img//background.png') no-repeat;
+  background: #f343d6;
+  height: 1360px;
+  width: 760px;
+  margin: 0 auto;
+  overflow: hidden;
+  // background-size: cover;
+}
+
+.headerContainer {
+  height: 260px;
+  width: 100%;
+  background: #f343d6;
+  // background-color: #f343d6;
+  padding-top: 30px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .title {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 30px;
+  }
+
+  .titleRecord {
+    color: rgb(255, 251, 0);
+    text-transform: none;
+    font-size: 22px;
+    margin-top: 20px;
+  }
+}
+
+.progressBarContainer {
+  width: 500px;
+  height: 80px;
+  background: -webkit-radial-gradient(center, circle, rgba(255, 255, 255, .0), rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 0%), -webkit-radial-gradient(center, circle, rgba(0, 0, 0, .2), rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) -16%), -webkit-radial-gradient(center, circle farthest-corner, #f0f0f0, #c0c0c0);
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  border: 10px solid #cf15e0;
+
+  .progressBar {
+    width: 380px;
+    border-radius: 50px;
+    height: 15px;
+    background: #b3b3b3;
+    margin-right: 15px;
+  }
+
+  .progressBarProgress {
+    height: 100%;
+    border-radius: 50px;
+    background: #05bafe;
+    box-shadow: inset 30px 2px 30px 0px rgba(50, 50, 50, 0.32);
+  }
+
+  .progressBarProgressText {
+    font-weight: 600;
+    font-size: 24px;
+  }
+}
+
+.gameArea {
+  background: url('./img/game_background.png');
+  width: 760px;
+  height: 640px;
+  margin: 70px auto auto auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+
+  .cat {
+    width: 105px;
+    height: 105px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    outline: none;
+  }
+}
+
+.game2 {
+  background:#f060af;
+
+  margin: 0px;
+  padding: 0px;
+  width: 760px;
+  height: 1100px;
+
+  // frameset {
+  //   margin: 0px;
+  //   padding: 0px;
+  // }
+}
+
+.score {
+  margin: 50px auto auto auto;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 36px;
+}
+
+.confirm {
+  text-transform: uppercase;
+  background: #c3a94d;
+  color: #1a1c21;
+  font-weight: 800;
+  width: 220px;
+  height: 50px;
+  line-height: 3.3;
+  border-radius: 5px;
+  text-align: center;
+  margin: 20px auto auto auto;
+  border: none;
+}

@@ -1,0 +1,26 @@
+.wrapper {
+    padding: 0px 20px 40px 20px;
+}
+.coinsList {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.title {
+    display: flex;
+    align-items: flex-start;
+    align-self: flex-start;
+    justify-content: flex-start;
+    font-weight: 800;
+    margin-bottom: 170px;
+    .number {
+        color: #c3a94d;
+        font-size: 71pt;
+        margin-right: 15px;
+        line-height: 0.9;
+    }
+    .description {
+        font-size: 26pt;
+    }
+}

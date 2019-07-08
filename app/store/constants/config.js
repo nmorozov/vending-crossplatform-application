@@ -1,0 +1,11 @@
+export const IDLE_TIME = 30;
+export const COIN_PRICE = 1;
+export const ENVELOPE_PRICE = 0;
+//export const IP_PRINTER = '192.168.88.37';
+export const IP_PRINTER = 'localhost';
+export const PORT_PRINTER = 49876;
+export const DEBUG_PAYMENT = 0;
+export const DISABLE_PAYMENT = 0;
+export const PRINT_TIMEOUT = 150;
+export const FRONTSIDE_IMAGE_WIDTH = 1054;
+export const FRONTSIDE_IMAGE_HEIGHT = 1054;

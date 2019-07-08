@@ -1,0 +1,120 @@
+.wrapper {
+    padding: 0px 20px 40px 20px;
+}
+.hiddenCanvas {
+    position: absolute;
+    display: none;
+    background: #fff;
+    z-index: 100;
+}
+.personalizationTypeWrapper {
+    text-align: center;
+    .timerDescriptionText {
+        color: #919090;
+        font-size: 12pt;
+        font-weight: 500;
+        margin-bottom: 20px;
+    }
+    .secondsLeftValue {
+        font-size: 45pt;
+        font-weight: 800;
+        margin-bottom: 35px;
+    }
+    .interactiveAreaWrapper {
+        margin-top: 25px;
+    }
+    .backgroundImageStyle { 
+        background: url('../../images/coin_bg_plain.png') no-repeat;
+        background-size: 483px 483px;
+        width: 483px;
+        height: 483px;
+        margin: 0 auto;
+        position: relative;
+    }
+    .backgroundTextStyle { 
+        background: url('') no-repeat;
+        background-size: 483px 483px;
+        width: 483px;
+        height: 483px;
+        background-position: 0 0px;
+    }
+    .buttons {
+        margin-top: 50px;
+    }
+    .button {
+        width: 340px;
+        height: 55px;
+        border-radius: 5px;
+        text-transform: uppercase;
+        font-weight: 800;
+        font-size: 14px;
+        line-height: 4;
+        cursor: pointer;
+    }
+    .confirm {
+        margin: 0 auto;
+        background: #c3a94d;
+    }
+    .erase {
+        margin: 20px auto;
+        background: #150c2b;
+        color: #fff;
+    }
+    .disabled {
+        opacity: 0.5;
+    }
+    .canvas {
+        position: absolute;
+        left: 60px;
+        top: 60px;
+        border-radius: 200px;
+        width: 360px;
+        height: 360px;
+    }
+}
+.title {
+    display: flex;
+    align-items: flex-start;
+    align-self: flex-start;
+    justify-content: flex-start;
+    font-weight: 800;
+    margin-bottom: 50px;
+    filter: blur(5px);
+    .number {
+        color: #c3a94d;
+        font-size: 71pt;
+        margin-right: 15px;
+        line-height: 0.9;
+    }
+    .description {
+        font-size: 26pt;
+    }
+}
+
+.confirmYes {
+    text-transform: uppercase;
+    background: #c3a94d;
+    color: #1a1c21;
+    font-weight: 800;
+    width: 220px;
+    height: 50px;
+    line-height: 3.3;
+    border-radius: 5px;
+    text-align: center;
+    margin: 20px auto auto auto;
+    border: none;
+  }
+
+.confirmNo {
+    text-transform: uppercase;
+    background: #c3a94d;
+    color: #1a1c21;
+    font-weight: 800;
+    width: 220px;
+    height: 50px;
+    line-height: 3.3;
+    border-radius: 5px;
+    text-align: center;
+    margin: 20px auto auto auto;
+    border: none;
+  }

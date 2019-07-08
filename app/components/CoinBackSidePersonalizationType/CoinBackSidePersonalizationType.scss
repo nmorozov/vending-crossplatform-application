@@ -1,0 +1,15 @@
+.coin {
+    width: 220px;
+    margin-right: 15px;
+    text-align: center;
+    .name {
+        margin-top: 35px;
+        margin-bottom: 40px;
+        font-weight: 500;
+        font-size: 13pt;
+    }
+    .description {
+        font-weight: 400;
+        font-size: 11pt;
+    }
+}
